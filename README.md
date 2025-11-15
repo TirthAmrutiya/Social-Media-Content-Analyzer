@@ -40,7 +40,7 @@ A minimal Flask-based web application for extracting text from PDF and image fil
    python app.py
    ```
 
-2. Open your web browser and navigate to `http://localhost:5000`.
+2. Open your web browser and navigate to `http://localhost:5000`
 
 3. Upload a PDF or image file using the form.
 
@@ -53,3 +53,4 @@ This app can be deployed to platforms like Streamlit Cloud, Vercel, or Render fo
 ## Brief Write-up
 
 The Social Media Content Analyzer allows users to effortlessly upload PDF and image files, extracting text through PDF parsing (using pdfplumber) and image OCR (using pytesseract). The simple Flask-based interface supports drag-and-drop or file picker uploads. Error-handling ensures users only process supported files, and temporary storage is used for security. Documented, clean code ensures production-readiness, while modular functions allow easy extension for further features like engagement suggestions, all deliverable within a short 3-hour window.
+
